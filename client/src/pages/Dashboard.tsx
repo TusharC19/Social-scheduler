@@ -30,25 +30,7 @@ const Dashboard = () => {
         fetchDashboardData();
     }, [])
 
-    //   useEffect(()=>{
-    //     const fetchDashboardData = async () => {
-    //       try {
-    //         const [postsRes, accountsRes, activityRes] = await Promise.all([api.get("/api/posts"), api.get("/api/accounts"), api.get("/api/activity")])
-
-    //         const posts = postsRes.data;
-    //         setStats({
-    //           scheduled: posts.filter((p: any) => p.status === 'scheduled').length,
-    //           published: posts.filter((p: any) => p.status === 'published').length,
-    //           connectedAccounts: accountsRes.data.filter((a: any) => a.status === 'connected').length,
-    //         })
-    //         setActivities(activityRes.data)
-    //       } catch (error: any) {
-    //         console.error("Error fetching dashboard data", error)
-    //       }
-    //     };
-    //     fetchDashboardData();
-    //   },[])
-
+   
     const statCards = [
         {
             label: "Scheduled Posts",
