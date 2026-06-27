@@ -170,7 +170,7 @@ const Scheduler = () => {
                     </div>
                 </div>
 
-                {/* Published */}
+                {/* Published Part*/}
                 <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
                     <div className="flex items-center gap-2.5 px-5 py-4 border-b border-slate-100">
                         <SendIcon className="size-4 text-zinc-500" />
